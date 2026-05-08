@@ -1,0 +1,91 @@
+[    1185ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/:0
+[    6228ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[    6270ms] [LOG] PBOfferUI loaded {Template1UI: , Template2UI: , Template3UI: , Template4UI: , BTemplate1UI: } @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[    6421ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[    6421ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[    6423ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[    7622ms] [LOG] %c AV script loaded  
+  background: linear-gradient(152deg, #1a8629 0%, #1a8629 65%, #0a5c15 100%);
+  color: white;
+  font-size: 11px;
+  padding: 4px 8px;
+  font-weight: bold;
+  border-radius: 20px;
+   @ https://av.perfect-app.app/storefront-script/q1h4fy-tj.myshopify.com.js?shop=q1h4fy-tj.myshopify.com:12
+[   12462ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[   16488ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[   34033ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[   44233ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[   72745ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[   89515ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[   93341ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[  104054ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[  114459ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/:0
+[  177036ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/merrymi-vape-descartaveis-portugal:0
+[  182940ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  182971ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  182972ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  184014ms] [LOG] PBOfferUI loaded {Template1UI: , Template2UI: , Template3UI: , Template4UI: , BTemplate1UI: } @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  184277ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  185805ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/jnr-vapes-descartaveis-portugal:0
+[  188366ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  188368ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  188371ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  188955ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  189127ms] [LOG] PBOfferUI loaded {Template1UI: , Template2UI: , Template3UI: , Template4UI: , BTemplate1UI: } @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  189840ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/fumot-vapes-descartaveis-portugal:0
+[  191472ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  191473ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  191474ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  191960ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  192309ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal:0
+[  193354ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  193355ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  193355ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  193865ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  194337ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/al-fakher-vapes-descartaveis-portugal:0
+[  195615ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  195616ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  195620ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  196470ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  196772ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/blur-vapes-descartaveis-portugal:0
+[  198415ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  199221ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  199222ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  199223ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  199751ms] [LOG] PBOfferUI loaded {Template1UI: , Template2UI: , Template3UI: , Template4UI: , BTemplate1UI: } @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  200088ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/ghost-vapes-descartaveis-portugal:0
+[  201170ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  201170ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  201171ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  201610ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  201844ms] [LOG] PBOfferUI loaded {Template1UI: , Template2UI: , Template3UI: , Template4UI: , BTemplate1UI: } @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  202063ms] [WARNING] A preload for 'https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal:0
+[  203245ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  203246ms] [LOG] initialize @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  203246ms] [LOG] no cart offer @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  203662ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors https://q1h4fy-tj.myshopify.com https://q1h4fy-tj.account.myshopify.com https://shopify.com". The request has been blocked.
+ @ :0
+[  203959ms] [LOG] PBOfferUI loaded {Template1UI: , Template2UI: , Template3UI: , Template4UI: , BTemplate1UI: } @ https://cdn.shopify.com/extensions/019ddd10-ddf2-70b1-99a1-1dcd6989c144/bundle-app-171-160/assets/bundle_panda.js:0
+[  204596ms] [LOG] %c AV script loaded  
+  background: linear-gradient(152deg, #1a8629 0%, #1a8629 65%, #0a5c15 100%);
+  color: white;
+  font-size: 11px;
+  padding: 4px 8px;
+  font-weight: bold;
+  border-radius: 20px;
+   @ https://av.perfect-app.app/storefront-script/q1h4fy-tj.myshopify.com.js?shop=q1h4fy-tj.myshopify.com:12
+[  226662ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal:0
+[  235018ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal:0
+[  246609ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal:0
+[  261968ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal:0
+[  304901ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal:0
+[ 1528961ms] [WARNING] The resource https://cdn.shopify.com/extensions/019db92d-c7a5-7448-8297-f820b28a81c0/menufrontend-314/assets/globo.menu.replace.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal:0
