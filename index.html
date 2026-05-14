@@ -28,6 +28,740 @@
     <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
+
+    <!-- TODO: Add Product offers only when verified prices and availability are visible in page data. Do not add fake reviews, ratings, or FAQ. -->
+    <script type="application/ld+json">
+{
+    "@context":  "https://schema.org",
+    "@graph":  [
+                   {
+                       "@type":  "OnlineStore",
+                       "@id":  "https://vapeportugal.pt/#organization",
+                       "name":  "vapedesc.pt",
+                       "url":  "https://vapeportugal.pt/",
+                       "logo":  {
+                                    "@type":  "ImageObject",
+                                    "url":  "https://vapeportugal.pt/Images/logos/logotipo-vapedesc-vape-descartavel-portugal.png"
+                                },
+                       "email":  "info@vapeportugal.pt",
+                       "telephone":  "+351 935 718 678",
+                       "contactPoint":  [
+                                            {
+                                                "@type":  "ContactPoint",
+                                                "contactType":  "customer support",
+                                                "email":  "info@vapeportugal.pt",
+                                                "telephone":  "+351 935 718 678",
+                                                "availableLanguage":  [
+                                                                          "pt-PT",
+                                                                          "pt"
+                                                                      ],
+                                                "areaServed":  {
+                                                                   "@type":  "Country",
+                                                                   "name":  "Portugal"
+                                                               }
+                                            }
+                                        ],
+                       "areaServed":  {
+                                          "@type":  "Country",
+                                          "name":  "Portugal"
+                                      },
+                       "availableLanguage":  [
+                                                 "pt-PT",
+                                                 "pt"
+                                             ]
+                   },
+                   {
+                       "@type":  "WebSite",
+                       "@id":  "https://vapeportugal.pt/#website",
+                       "name":  "vapedesc.pt",
+                       "url":  "https://vapeportugal.pt/",
+                       "publisher":  {
+                                         "@id":  "https://vapeportugal.pt/#organization"
+                                     },
+                       "inLanguage":  "pt-PT"
+                   },
+                   {
+                       "@type":  "WebPage",
+                       "@id":  "https://vapeportugal.pt/#webpage",
+                       "url":  "https://vapeportugal.pt/",
+                       "name":  "Vapes Descartaveis em Portugal | Cigarro Eletronico Online",
+                       "description":  "Encontre vapes descartaveis, vape descartavel e cigarro eletronico descartavel para adultos em Portugal.",
+                       "isPartOf":  {
+                                        "@id":  "https://vapeportugal.pt/#website"
+                                    },
+                       "about":  {
+                                     "@id":  "https://vapeportugal.pt/#organization"
+                                 },
+                       "inLanguage":  "pt-PT",
+                       "mainEntity":  {
+                                          "@id":  "https://vapeportugal.pt/#featured-products"
+                                      }
+                   },
+                   {
+                       "@type":  "BreadcrumbList",
+                       "@id":  "https://vapeportugal.pt/#breadcrumb",
+                       "itemListElement":  [
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  1,
+                                                   "name":  "Pagina Inicial",
+                                                   "item":  "https://vapeportugal.pt/"
+                                               }
+                                           ]
+                   },
+                   {
+                       "@type":  "ItemList",
+                       "@id":  "https://vapeportugal.pt/#product-categories",
+                       "name":  "Categorias de vapes descartaveis em Portugal",
+                       "itemListElement":  [
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  1,
+                                                   "name":  "Vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/vapes-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  2,
+                                                   "name":  "Produtos novos Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/produtos-novos-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  3,
+                                                   "name":  "MerryMi vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/merrymi-vape-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  4,
+                                                   "name":  "JNR vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/jnr-vapes-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  5,
+                                                   "name":  "Fumot vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/fumot-vapes-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  6,
+                                                   "name":  "Adalya vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  7,
+                                                   "name":  "Al Fakher vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/al-fakher-vapes-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  8,
+                                                   "name":  "Blur vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/blur-vapes-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  9,
+                                                   "name":  "Hayati vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/hayati-vapes-descartaveis-portugal"
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  10,
+                                                   "name":  "Ghost vapes descartaveis Portugal",
+                                                   "url":  "https://vapeportugal.pt/collections/ghost-vapes-descartaveis-portugal"
+                                               }
+                                           ]
+                   },
+                   {
+                       "@type":  "ItemList",
+                       "@id":  "https://vapeportugal.pt/#featured-products",
+                       "name":  "Produtos em destaque",
+                       "itemListElement":  [
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  1,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal#product",
+                                                                "name":  "Adalya AD10000 10K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/adalya-ad10000-10k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Adalya AD10000 10K - vape descartável com 10000 puffs e sabor Fresh Lime",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Adalya"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  2,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal#product",
+                                                                "name":  "Adalya AD3500 3.5K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/adalya-ad3500-3500-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Adalya AD3500 3.5K - cigarro eletrónico descartável com 3500 puffs e sabor Grape Mint",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Adalya"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  3,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal#product",
+                                                                "name":  "Adalya ADL16000 16K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/adalya-adl16000-16k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Adalya ADL16000 16K - vape com nicotina, 16000 puffs e sabor English Lord",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Adalya"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  4,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal#product",
+                                                                "name":  "Adalya Aurora 40K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/adalya-aurora-40k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Adalya Aurora 40K - cigarro eletrónico descartável com muitos puffs e sabor Lady Killer",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Adalya"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  5,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/blur-20k-vape-descartavel-portugal#product",
+                                                                "name":  "Blur 20K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/blur-20k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Blur 20K - cigarro eletrónico vape descartável com 20000 puffs e sabores frutados",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Blur"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/blur-20k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  6,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/blur-30k-vape-descartavel-portugal#product",
+                                                                "name":  "Blur 30K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/blur-30k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Blur 30K - vape descartável com nicotina, 30000 puffs e sabor Cherry Cola",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Blur"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/blur-30k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  7,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/fumot-digital-box-12k-vape-descartavel-portugal#product",
+                                                                "name":  "Fumot Digital Box 12K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/fumot-digital-box-12k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Fumot Digital Box 12K - cigarro eletrónico descartável com 12000 puffs e sabor Blueberry Kiwi",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Fumot"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/fumot-digital-box-12k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  8,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/fumot-digital-monkey-40k-vape-descartavel-portugal#product",
+                                                                "name":  "Fumot Digital Monkey 40K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/fumot-digital-monkey-40k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Fumot Digital Monkey 40K - vape descartável com 40000 puffs e sabor Banana Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Fumot"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/fumot-digital-monkey-40k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  9,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/fumot-leopard-40k-vape-descartavel-portugal#product",
+                                                                "name":  "Fumot Leopard 40K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/fumot-leopard-40k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Fumot Leopard 40K - cigarro eletrónico descartável com 40000 puffs e sabores de vape",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Fumot"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/fumot-leopard-40k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  10,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/fumot-t9000-9k-vape-descartavel-portugal#product",
+                                                                "name":  "Fumot T9000",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/fumot-t9000-9k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Fumot T9000 9K - cigarro eletrónico descartável com 9000 puffs e sabor Raspberry Watermelon",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Fumot"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/fumot-t9000-9k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  11,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/fumot-tornado-15k-vape-descartavel-portugal#product",
+                                                                "name":  "Fumot Tornado 15K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/fumot-tornado-15k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Fumot Tornado 15K - vape descartável com 15000 puffs e sabor Cactus Kiwi",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Fumot"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/fumot-tornado-15k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  12,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/fumot-tornado-25k-vape-descartavel-portugal#product",
+                                                                "name":  "Fumot Tornado 25K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/fumot-tornado-25k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Fumot Tornado 25K - cigarro eletrónico vape descartável com 25000 puffs e sabor Black Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Fumot"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/fumot-tornado-25k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  13,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/fumot-tornado-music-30k-vape-descartavel-portugal#product",
+                                                                "name":  "Fumot Tornado 30K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/fumot-tornado-music-30k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Fumot Tornado 30K - vape descartável com 30000 puffs e sabor Black Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Fumot"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/fumot-tornado-music-30k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  14,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/hayati-pro-max-4k-vape-descartavel-portugal#product",
+                                                                "name":  "Hayati Pro Max 4K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/hayati-pro-max-4k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Hayati Pro Max 4K - vape descartável com nicotina, 4000 puffs e sabor Berry Lemonade",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Hayati"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/hayati-pro-max-4k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  15,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/hayati-twist-5k-vape-descartavel-portugal#product",
+                                                                "name":  "Hayati Twist 5K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/hayati-twist-5k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "Hayati Twist 5K - cigarro eletrónico vape descartável com 5000 puffs e sabor Blue Razz",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "Hayati"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/hayati-twist-5k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  16,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-alien-10k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Alien 10K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-alien-10k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Alien 10K - vape com nicotina, 10000 puffs e sabor Black Dragon Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-alien-10k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  17,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-falcon-16k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Falcon 16K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-falcon-16k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Falcon 16K - vape descartável com 16000 puffs e sabor Pink Lemon",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-falcon-16k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  18,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-falcon-bar-48k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Falcon Bar 48K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-falcon-bar-48k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Falcon Bar 48K - vape descartável com 48000 puffs e sabor Black Dragon Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-falcon-bar-48k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  19,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-falcon-pro-28k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Falcon Pro 28K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-falcon-pro-28k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Falcon Pro 28K - cigarro eletrónico descartável com 28000 puffs e sabor Blueberry Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-falcon-pro-28k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  20,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-falcon-x-18k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Falcon X 18K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-falcon-x-18k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Falcon X 18K - cigarro eletrónico descartável com 18000 puffs e sabor Hawaii",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-falcon-x-18k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  21,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-leopard-40k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Leopard 40K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-leopard-40k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Leopard 40K - vape descartável com nicotina, 40000 puffs e sabores frutados",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-leopard-40k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  22,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-mega-box-25k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Mega Box 25K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-mega-box-25k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Mega Box 25K - cigarro eletrónico descartável com 25000 puffs e sabores de vape",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-mega-box-25k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  23,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-mega-box-pro-50k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Mega Box Pro 50K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-mega-box-pro-50k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Mega Box Pro 50K - vape com nicotina, 50000 puffs e sabor White Peach Razz",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-mega-box-pro-50k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  24,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-ragegorilla-55k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Rage Gorilla 55K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-ragegorilla-55k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Rage Gorilla 55K - vape descartável com 55000 puffs e sabor Blueberry Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-ragegorilla-55k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  25,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/jnr-shisha-hookah-max-22k-vape-descartavel-portugal#product",
+                                                                "name":  "JNR Shisha Hookah 22K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/jnr-shisha-hookah-max-22k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "JNR Shisha Hookah 22K - vape descartável com 22000 puffs e sabor Berry Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "JNR"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/jnr-shisha-hookah-max-22k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  26,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/merry-mi-blade-30k-vape-descartavel-portugal#product",
+                                                                "name":  "MerryMi Blade 30K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/merry-mi-blade-30k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "MerryMi Blade 30K - vape descartável com nicotina, 30000 puffs e sabor Strawberry Prime",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "MerryMi"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/merry-mi-blade-30k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  27,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/merry-mi-mecha-pro-35k-vape-descartavel-portugal#product",
+                                                                "name":  "MerryMi Mecha Pro 35K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/merry-mi-mecha-pro-35k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "MerryMi Mecha Pro 35K - vape descartável com muitos puffs e sabor Vimto",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "MerryMi"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/merry-mi-mecha-pro-35k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  28,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/merrymi-mk20000-20k-vape-descartavel-portugal#product",
+                                                                "name":  "MerryMi MK20000 20K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/merrymi-mk20000-20k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "MerryMi MK20000 20K - cigarro eletrónico descartável com 20000 puffs e sabor Banana Custard",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "MerryMi"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/merrymi-mk20000-20k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  29,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/merrymi-m-mecha-16k-vape-descartavel-portugal#product",
+                                                                "name":  "MerryMi M-Mecha 16K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/merrymi-m-mecha-16k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "MerryMi M-Mecha 16K - cigarro eletrónico descartável com 16000 puffs e sabor Dragon Fruit Ice",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "MerryMi"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/merrymi-m-mecha-16k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  30,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/merrymi-panda-x-40k-vape-descartavel-portugal#product",
+                                                                "name":  "MerryMi Panda X 40K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/merrymi-panda-x-40k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "MerryMi Panda X 40K - vape descartável com 40000 puffs e sabor Blueberry Raspberry",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "MerryMi"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/merrymi-panda-x-40k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  31,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/merry-mi-wiflux-24k-vape-descartavel-portugal#product",
+                                                                "name":  "MerryMi WiFlux 24K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/merry-mi-wiflux-24k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "MerryMi WiFlux 24K - vape descartável com 24000 puffs e sabor Watermelon Grapefruit",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "MerryMi"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/merry-mi-wiflux-24k-vape-descartavel-portugal"
+                                                            }
+                                               },
+                                               {
+                                                   "@type":  "ListItem",
+                                                   "position":  32,
+                                                   "item":  {
+                                                                "@type":  "Product",
+                                                                "@id":  "https://vapeportugal.pt/products/randm-tornado-9k-vape-descartavel-portugal#product",
+                                                                "name":  "RAndM Tornado 9K",
+                                                                "image":  [
+                                                                              "https://vapeportugal.pt/Images/products/randm-tornado-9k-vape-descartavel-portugal.png"
+                                                                          ],
+                                                                "description":  "RAndM Tornado 9K - vape com nicotina, 9000 puffs e sabor Triple Mango",
+                                                                "brand":  {
+                                                                              "@type":  "Brand",
+                                                                              "name":  "RAndM"
+                                                                          },
+                                                                "url":  "https://vapeportugal.pt/products/randm-tornado-9k-vape-descartavel-portugal"
+                                                            }
+                                               }
+                                           ]
+                   }
+               ]
+}
+    </script>
 </head>
 
 <body>
